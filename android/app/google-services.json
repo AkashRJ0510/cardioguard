@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "311139845600",
+    "project_id": "cardioguard-9cace",
+    "storage_bucket": "cardioguard-9cace.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311139845600:android:87ddfc1a717d75c7fad785",
+        "android_client_info": {
+          "package_name": "com.akashreddy.cardioguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311139845600-lsdjmfsp3ugdg015vp8e4mkns2fjp0jc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcRDVU3rzkIxCVJjgv0FrYq9HFySa_BM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311139845600-lsdjmfsp3ugdg015vp8e4mkns2fjp0jc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "311139845600-q4k965vm4h16sfl2m9e51slgjde25cjs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cardioguard"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311139845600:android:5d3bde22ea6b19fefad785",
+        "android_client_info": {
+          "package_name": "com.example.cardioguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311139845600-lsdjmfsp3ugdg015vp8e4mkns2fjp0jc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcRDVU3rzkIxCVJjgv0FrYq9HFySa_BM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311139845600-lsdjmfsp3ugdg015vp8e4mkns2fjp0jc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "311139845600-q4k965vm4h16sfl2m9e51slgjde25cjs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cardioguard"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
