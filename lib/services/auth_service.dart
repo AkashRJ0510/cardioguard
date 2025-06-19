@@ -32,4 +32,12 @@ class AuthService {
       throw Exception('Unexpected error: $e');
     }
   }
+
+  Future<void> sendPasswordResetEmail(String email) async {
+    try {
+      await FirebaseAuth.instance.sendPasswordResetEmail(email: email);
+    } catch (e) {
+      throw Exception('Failed to send password reset email: $e');
+    }
+  }
 }
