@@ -33,7 +33,7 @@ class _SignupScreenState extends State<SignupScreen> {
           context,
         ).showSnackBar(const SnackBar(content: Text('Signup successful!')));
         // TODO: Navigate to dashboard
-        Navigator.pushReplacementNamed(context, '/dashboard');
+        Navigator.pushReplacementNamed(context, '/main-tabs');
       }
     } catch (e) {
       setState(() {

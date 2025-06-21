@@ -34,7 +34,7 @@ class _LoginScreenState extends State<LoginScreen> {
         ).showSnackBar(const SnackBar(content: Text('Login successful!')));
 
         // ✅ Navigate to dashboard
-        Navigator.pushReplacementNamed(context, '/dashboard');
+        Navigator.pushReplacementNamed(context, '/main-tabs');
       } else {
         setState(() {
           _error = "Login failed. User is null.";
