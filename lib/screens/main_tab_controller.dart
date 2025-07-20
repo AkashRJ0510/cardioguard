@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../screens/dashboard/dashboard_screen.dart';
-import '../screens/checkin_screen.dart';
-import '../screens/history_screen.dart';
+import 'checkin/checkin_screen.dart';
 import '../screens/settings_screen.dart';
+import '../screens/history/symptom_history_screen.dart';
 
 class MainTabController extends StatefulWidget {
   const MainTabController({super.key});
@@ -17,7 +17,7 @@ class _MainTabControllerState extends State<MainTabController> {
   final List<Widget> _screens = const [
     DashboardScreen(),
     CheckInScreen(),
-    HistoryScreen(),
+    SymptomHistoryScreen(),
     SettingsScreen(),
   ];
 
